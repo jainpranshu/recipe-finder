@@ -1,5 +1,9 @@
 # Recipe Finder & Meal Planner
 
+[![CI](https://github.com/jainpranshu/recipe-finder/actions/workflows/ci.yml/badge.svg)](https://github.com/jainpranshu/recipe-finder/actions/workflows/ci.yml)
+
+**A production-style SvelteKit recipe app backed by a reusable, published Web Component library.**
+
 A recipe discovery and weekly meal-planning app built with **SvelteKit 5** (runes) and **TypeScript**, using **[TheMealDB](https://www.themealdb.com/api.php)** as the public recipe API. All presentational UI is implemented as framework-agnostic **web components**, published as a standalone npm package — [`@jainpranshu/recipe-ui-kit`](#) — and consumed by this app, not imported from source.
 
 - **Live app:** https://recipe-finder-kappa-plum.vercel.app/
